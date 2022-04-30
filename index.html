@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name= "viewport" content="width=device-width, initial-scale=1">
+    <title>Test serie tv</title>
+   
+    <link rel="stylesheet" href="provided-style.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="constants.js" defer="true"></script>
+    <script src="script.js" defer="true"></script>
+    <script src="spotify.js" defer="true"></script>
+  </head>
+
+  <body>
+    <article>
+      <header>
+          <h1>Web Programming</h1>
+          <div>
+            <span>M</span>
+            <span>H</span>
+            <span>W</span>
+            <span>2</span>
+          </div>
+      </header>
+      <h1>In quale serie tv staresti meglio?</h1>
+      
+      <section class="question-name">
+        <h1>Quale serie tv ti è piaciuta di piu?</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="one">
+          <img src="./images/Breaking_Bad.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="one">
+          <img src="./images/got.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="one">
+          <img src="./images/Himym.png"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="one">
+          <img src="./images/theoffice.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="one">
+          <img src="./images/romanzocriminale.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="one">
+          <img src="./images/prison-break.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="one">
+          <img src="./images/peaky.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="one">
+          <img src="./images/vikings.png"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="one">
+          <img src="./images/sof.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question-name">
+        <h1>Qual è il tuo personaggio maschile preferito?</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="two">
+          <img src="./images/walter.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="two">
+          <img src="./images/Jon_Snow.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="two">
+          <img src="./images/Ted_Mosby.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="two">
+          <img src="./images/Michael_Scott.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="two">
+          <img src="./images/Libanese.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="two">
+          <img src="./images/Wentworth-Miller.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="two">
+          <img src="./images/tommy-shelby.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="two">
+          <img src="./images/ragnar.jpeg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="two">
+          <img src="./images/jack.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question-name">
+        <h1>Qual è il tuo personaggio femminile preferito? </h1>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="three">
+          <img src="images/skyler.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="three">
+          <img src="./images/danarys.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="three">
+          <img src="./images/robin.png"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="three">
+          <img src="./images/pam.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="three">
+          <img src="./images/patrizia.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="three">
+          <img src="./images/sara.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="three">
+          <img src="./images/helen.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="three">
+          <img src="./images/lagertha.png"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="three">
+          <img src="./images/gemma.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section id="risultato" class="nascosto"> 
+         <span></span>
+         <p></p>   
+         <button>Ricomincia il quiz</button>  
+      </section>
+
+    <div id="API">
+      <section id="Ap1">
+        <h2>Informiamoci un pò</h2>
+        <form id="ricerca">
+        <h3>Inserisci il nome di una serie tv o di un film per avere informazioni</h3>
+        <div>
+           <input type='text' id='title'>
+           <input type='submit' id="submit" value="Cerca">
+       </div>
+         </form>
+       </section>
+    <section id="information">
+
+    </section>
+
+
+<section id="Ap2">
+  <h2>Cerca le colonne sonore delle tue serie tv preferite </h2>
+  <form id="spotify">
+    <h3>Quale colonna sonora vuoi conoscere?</h3>
+    <div>
+    <input type='text' id='canzone'>
+  <input type='submit' id="submit" value="Cerca">
+</div>
+     </form>
+</section>
+<section id="music">
+
+</section>
+</div>
+  
+    </article>
+  </article>
+  <footer>
+    
+  </footer>
+  </body>
+</html>
